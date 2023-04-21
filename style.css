@@ -1,0 +1,106 @@
+body{
+    background-color: #eaeaea;
+}
+.parent-div{
+    width: 50%;
+    margin: 0 auto;
+}
+.emoji{
+    border: 1px solid black;
+    background: #ffffff;
+    box-shadow: 5px 10px 8px #888888;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 66px;
+
+}
+.emoji-face{
+    width: 20%;
+    height: 25%;
+    margin-top: 50px;
+}
+.smiley-img{
+    width: 135px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50%;
+}
+.label{
+    font-size: 20px;
+    font-weight: 600;
+}
+.input-box{
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid #eaeaea;
+}
+/* .far::before{
+    position: relative;
+    left: 277px;
+    bottom: 28px;
+    /* float: right;
+    bottom: 28px;
+    right: 14px; */
+
+.eye-svgl{
+    position: relative;
+    top: -109px;
+    left: 27px;
+    width: 40px;
+    
+}
+ .glass-img{
+    position: absolute;
+    width: 144px;
+    top: 13px;
+    left: 520px;
+    z-index: 999;
+    /* display: none; */
+    
+ } 
+ .glass-animate1{
+    animation: mymove1 1s;
+    animation-fill-mode: forwards;
+ }
+ 
+ @keyframes mymove1 {
+    from {top: 0px;}
+    to {top: 88px; }
+    }
+.glass-animate{
+    animation: mymove 1s;
+    animation-fill-mode: forwards; 
+ }
+@keyframes mymove {
+    from {top: 70px;}
+    to {top: 20px; }
+}
+    .eye-svgr{
+    position: relative;
+    top: -151px;
+    left: 70px;
+    width: 40px;
+    }
+    .login-btn{
+        background-color: #00ffff;
+        border-radius: 7px;
+        border: none;
+        padding: 8px;
+        font-size: 20px;
+    }
+    .far{
+    color: #7B7B7B;
+    position: relative;
+    right: -246px;
+    top: -28px;
+    }
+
+
+    
+
+    
